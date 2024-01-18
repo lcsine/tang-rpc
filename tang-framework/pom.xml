@@ -9,11 +9,11 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>tang-demo</artifactId>
+    <artifactId>tang-framework</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>tang-api</module>
-        <module>tang-provider-demo</module>
+        <module>tang-common</module>
+        <module>tang-core</module>
     </modules>
 
     <properties>
@@ -21,19 +21,5 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <dependencies>
-        <dependency>
-            <groupId>io.netty</groupId>
-            <artifactId>netty-all</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.zookeeper</groupId>
-            <artifactId>zookeeper</artifactId>
-            <version>3.8.3</version>
-        </dependency>
-    </dependencies>
+
 </project>
