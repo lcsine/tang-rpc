@@ -9,12 +9,13 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 
+import java.io.Serializable;
 import java.net.InetSocketAddress;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.util.logging.Handler;
 
-public class AppClient {
+public class AppClient implements Serializable {
     public void run() {
         //定义线程池，EventLoopGroup
         NioEventLoopGroup group = new NioEventLoopGroup();
