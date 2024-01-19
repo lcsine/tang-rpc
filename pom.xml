@@ -74,11 +74,7 @@
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
             </dependency>
-            <dependency>
-                <groupId>.m2.repository.org.springframework</groupId>
-                <artifactId>spring-beans</artifactId>
-                <version>5.1.9.RELEASE</version>
-            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
