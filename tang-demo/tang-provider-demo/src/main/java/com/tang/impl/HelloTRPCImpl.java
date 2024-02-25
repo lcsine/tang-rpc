@@ -1,8 +1,8 @@
 package com.tang.impl;
 
-import com.tang.HelloRPC;
+import com.tang.HelloTRPC;
 
-public class HelloRPCImpl implements HelloRPC {
+public class HelloTRPCImpl implements HelloTRPC {
     @Override
     public String sayHi(String msg) {
         return "hi consumer"+msg;

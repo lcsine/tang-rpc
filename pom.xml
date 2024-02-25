@@ -14,7 +14,7 @@
         <module>tang-framework/tang-common</module>
         <module>tang-framework/tang-core</module>
         <module>tang-manager</module>
-        <module>tang-demo/tang-client-demo</module>
+        <module>tang-demo/tang-consumer-demo</module>
         <module>tang-demo/tang-provider-demo</module>
         <module>tang-demo/tang-api</module>
     </modules>
